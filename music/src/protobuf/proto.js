@@ -1,7 +1,8 @@
 /*eslint-disable block-scoped-var, no-redeclare, no-control-regex, no-prototype-builtins*/
 "use strict";
 
-var $protobuf = require("protobufjs/minimal");
+// bb912 edit: use this package: https://www.jsdelivr.com/package/npm/react-native-protobuf
+var $protobuf = require("react-native-protobuf");
 
 // Common aliases
 var $Reader = $protobuf.Reader, $Writer = $protobuf.Writer, $util = $protobuf.util;

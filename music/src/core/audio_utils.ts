@@ -17,8 +17,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-//@ts-ignore
+// bb912 edit
 import * as tf from '@tensorflow/tfjs';
+import '@tensorflow/tfjs-react-native';
+// @ts-ignore
 import * as FFT from 'fft.js';
 import * as ndarray from 'ndarray';
 //@ts-ignore
@@ -29,6 +31,8 @@ import {fetch, getOfflineAudioContext, isSafari} from '../core/compat/global';
 import * as logging from './logging';
 
 const SAMPLE_RATE = 16000;
+
+// must replace this bb912
 const offlineCtx = getOfflineAudioContext(SAMPLE_RATE);
 
 /**

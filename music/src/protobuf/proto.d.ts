@@ -1,4 +1,4 @@
-import * as $protobuf from "protobufjs";
+import * as $protobuf from "react-native-protobuf";
 
 /** Namespace tensorflow. */
 export namespace tensorflow {

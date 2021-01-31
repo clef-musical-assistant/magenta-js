@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs-react-native';
 import * as test from 'tape';
 import {INoteSequence} from '..';
 import {MusicRNN} from './model';

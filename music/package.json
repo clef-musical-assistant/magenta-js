@@ -10,10 +10,11 @@
   "dependencies": {
     "@tensorflow/tfjs": "^2.7.0",
     "@tensorflow/tfjs-backend-webgl": "^2.7.0",
+    "@tensorflow/tfjs-react-native": "^0.5.0",
     "@tonejs/midi": "^2.0.15",
     "fft.js": "^4.0.3",
     "ndarray-resample": "^1.0.1",
-    "protobufjs": "^6.8.6",
+    "react-native-protobuf": "^5.0.1",
     "staffrender": "^0.2.1",
     "tonal": "^2.0.0",
     "tone": "^14.7.58"

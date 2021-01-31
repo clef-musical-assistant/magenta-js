@@ -20,7 +20,10 @@
 /**
  * Imports
  */
+
+// bb912 edit
 import * as tf from '@tensorflow/tfjs';
+import '@tensorflow/tfjs-react-native';
 
 import * as aux_inputs from '../core/aux_inputs';
 import * as chords from '../core/chords';
@@ -28,6 +31,8 @@ import * as data from '../core/data';
 import {fetch, performance} from '../core/compat/global';
 import * as logging from '../core/logging';
 import * as sequences from '../core/sequences';
+
+// bb912 must change
 import {INoteSequence} from '../protobuf/index';
 
 import {ATTENTION_PREFIX, AttentionWrapper} from './attention';
